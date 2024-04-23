@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+
+    
+    <header>
+        <title><center>FORMULARIO HTML</center> </title>
+        <br>
+        <h1>FORMULARIO HTML </h1>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    </header>
+
+    <br>
+    <br>
+
+    <Body>
+          
+           
+            <form action="" target="_blank" method="get"> 
+           
+                <label style="font-size: 20px;font-weight: bold; margin-left: 300px ;" for="Hora">FECHA Y HORA</label>
+                <input style="text-align: center; background-size: 25px;" type="datetime-local"  >
+
+                <br/>
+                <br/>
+            
+
+              
+                <ul>
+                    <h2>DATOS PERSONALES</h2>
+                    <br>
+                    <li>
+                        <label style="font-size: 20px;font-weight: bold;" for="Nombre" > NOMBRE </label> 
+                        <input style="text-align: center; background-size: 25px;" type="text" id="DATOSPERSONALES" name="Nombre" value="" autofocus="autofocus" required="required"/>
+                        &emsp;
+                        <label style="font-size:20px; font-weight:bold;" for="Apellido">APELLIDO</label>
+                        <input style="background-size:25px; text-align: center;" type="text" name="Apellido" id="DATOSPERSONALES" required="required" />
+                    </li>
+        
+
+                    <br/>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="DIRECCION">DIRECCION</label>
+                        <input style="background-size:25px; text-align: center;" type="text" name="DIRECCION" id="DATOSPERSONALES" required="required" />
+                        &emsp;
+                        <label style="font-size:20px; font-weight:bold; margin-left:44px;" for="Codigo Postal">C.P.</label>
+                        <input style="background-size:25px; width:60px; text-align: center;" type="number"  min="0" max="9999" placeholder="Ej:1234" name="Codigo Postal" id="DATOSPERSONALES"  required="required"/>
+                    </li>
+
+                    <br/>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="Localidad">LOCALIDAD</label>
+                        <input style="background-size:25px; text-align: center;" type="text" name="Localidad" id="DATOSPERSONALES" required="required" />
+                        &emsp;
+                        <label style="font-size:20px; font-weight:bold;margin-left:30px"  for="Pais">PAIS</label>
+                        <input style="background-size:25px; text-align: center; " type="text" name="Pais" id="DATOSPERSONALES" value="ARGENTINA" readonly />
+                    </li>
+                    <br>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="PROVINCIAS">PROVINCIA</label>
+
+                        <select style="text-align:center;"name="PROVINCIAS" id="DATOS PERSONALES" >
+                            <option value="BUENOS AIRES">BUENOS AIRES</option>
+                            <option value="CAPITAL FEDERAL">CAPITAL FEDERAL</option>
+                            <option value="CORDOBA">CORDOBA</option>
+                            <option value="MENDOZA">MENDOZA</option>
+                            <option value="CATAMARCA">CATAMARCA</option>
+                            <option value="LA RIOJA">LA RIOJA</option>
+                            <option value="JUJUY">JUJUY</option>
+                            <option value="SALTA">SALTA</option>
+                            <option value="CHACO">CHACO</option>
+                            <option value="MISIONES">MISIONES</option>
+                            <option value="SANTA FE">SANTA FE</option>
+                            <option value="SANTA CRUZ">SANTA CRUZ</option>
+                            <option value="CHUBUT">CHUBUT</option>
+                            <option value="TIERRA DEL FUEGO">TIERRA DEL FUEGO</option>
+                            <option value="TUCUMAN">TUCUMAN</option>
+                            <option value="LA PAMPA">LA PAMPA</option>
+                            <option value="CORRIENTES">CORRIENTES</option>
+                            <option value="ENTRE RIOS">ENTRE RIOS</option>
+                            <option value="NEUQUEN">NEUQUEN</option>
+                            <option value="SANTIAGO DEL ESTERO">SANTIAGO DEL ESTERO</option>
+                            <option value="FORMOSA">FORMOSA</option>
+                            <option value="SAN LUIS">SAN LUIS</option>
+                            <option value="SAN JUAN">SAN JUAN</option>
+                        </select>
+                    </li>
+
+                    <br/>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="DOCUMENTO">DOCUMENTO/CUIT/CUIL </label>
+                        <input style="background-size:25px; text-align: center;" type="number" name="DOCUMENTO" id="DATOSPERSONALES" required="required" />
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="TELEFONO">TELEFONO</label> 
+                        <input style="background-size:25px;width:30px ; text-align: center;" type="text" readonly name="AREA" id="AREA" value="+54"  />
+                        -
+                        <input style="background-size:25px; text-align: center;" type="text" title="11-xxxxxxxx" name="TELEFONO" id="DATOSPERSONALES" placeholder="11-01234567" />
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <label style="font-size:20px; font-weight:bold;" for="mail">E-MAIL</label> 
+                        <input style="background-size:25px; text-align: center;" type="email" name="MAIL" id="DATOSPERSONALES" placeholder="xxx@xxxx" required="required"  />
+                    
+                    </li>
+
+                    <br>
+                    <h2>CARACTERISTICAS DEL PAQUETE </h2>
+                    <br>
+
+                    <li>
+                        
+                        <input  type="radio"  id="documento" name="Tipos" value="Documento">
+                        <label style="font-size:20px; font-weight:bold" for="documento">Documento</label>
+                        &emsp;
+                        <input type="radio" id="carta" name="Tipos" value="Carta">
+                        <label style="font-size:20px; font-weight:bold" for="carta">Carta</label>
+                        &emsp;
+                        <input type="radio" name="Tipos" id="Paquete">
+                        <label style="font-size:20px; font-weight:bold"  for="Paquete">Paquete</label>
+                        
+                    </li>
+                    <br>
+                    <li>
+                        <label style="font-size:20px; font-weight:bold" for="CANTPAQ">Cantidad De Paquetes</label>
+                        <input style="text-align: center" type="number" min="1" max=10 name="CANTIDAD" id="CANTPAQ" placeholder="1-10" value="1">
+                    </li>
+                    <br>
+                    <li>
+                        
+                        <label style="font-size:20px; font-weight:bold" for="VALOR">Valor Declarado</label>
+                        <input style="width: 15px; text-align: center;" type="text" value="$" disabled readonly>
+                        <input type="number" min="1000" max="500000" step="0,1">
+                        
+                    </li>
+                    <br/>
+                    <li>
+                        <label style="font-size:20px; font-weight:bold" for="DIMENSIONES">Dimensiones del Paquete</label> 
+                        <br>
+                        <br>
+                        <input style="width: 90px;" type="number" name="LARGO"  id="DIMENSIONES" min=10 max="2000" step="0.1" placeholder="10-2000 CM"> 
+                        <input style="width: 20px; text-align: center;" type="text" value="CM" readonly disabled>
+                        &emsp;
+                        <input style="width: 90px;" type="number" name="ANCHO"   id="DIMENSIONES" min=10 max="2000" step="0.1" placeholder="10-2000 CM"> 
+                        <input style="width: 20px; text-align: center;" type="text" value="CM" readonly disabled>
+                        &emsp;
+                        <input style="width: 90px;" type="number" name="PROFUNDIDAD" id="DIMENSIONES" min="10" max="2000" step="0.1" placeholder="10-2000 CM">
+                        <input style="width: 20px; text-align: center;" type="text" value="CM" readonly disabled>
+
+                    </li>
+                    <br>
+                    <li>    
+                        <label style="font-size:20px; font-weight:bold" for="PESO"> Peso </label>
+                        <input style="width:90px;" type="number" name="PESO" id="Peso" min="10" max="50000" placeholder="10-50000gr" step="0.1">
+
+                    </li>
+
+                    <br>
+                    <h2>TERMINOS Y CONDICIONES </h2>
+
+                    <li> 
+
+                        <label for="TERMINOS"> 
+                                <nav style="font-size: larger;" >
+                                No estoy enviando ningun <a href="https://www.enacom.gob.ar/envios-prohibidos_p499" target="_blank" > Articulos Prohibidos </a> y acepto los 
+                                <a href="https://www.correoargentino.com.ar/MiCorreo/public/terminosycondiciones" target="_blank"> Terminos y Condicinoes</a> de envio
+                                </nav>      
+                        </label>
+
+                        <input type="checkbox" name="TERMINOS Y CONDICIONES" id="TERMINOS" required="required"> 
+                    </li>
+
+
+                    <br>
+                    <br>
+
+                    <input type="submit" value="ENVIAR FORMULARIO">
+                    <input type="reset" value="RESET">
+                    
+                </ul>
+
+                <br>
+                <br>
+                
+           
+             
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </Body>
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
