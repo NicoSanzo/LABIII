@@ -1,0 +1,123 @@
+ 
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body
+{
+   height: 100%;
+   width: 100%;
+
+
+
+}
+
+
+.principal-div
+{
+
+    height: 1500px;
+    width: 80%;
+    background-color: rgb(170, 236, 236);
+    box-shadow: 0 0 12px 0 black;
+    margin: auto;
+    padding:1%;
+
+}
+
+.menu   
+{
+    height: 80px;
+    width: 250px;
+    border: solid thin;
+    float:left;
+    margin:1px;
+    background: linear-gradient(45deg, rgba(154,175,224,1) 0%, rgba(157,153,196,1) 43%, rgba(85,66,212,1) 100%);
+    border-radius:10px;
+    box-shadow: 0 0 5px 0 black;
+    transition: width 1s , height 1s;
+    
+    
+    
+}
+.menu:hover
+{
+
+    background: rgb(13, 35, 180);
+    color: white;
+    width: 300px;
+    height: 100px;
+    
+}
+
+h2
+{
+    padding:10%;
+    text-align:center ;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Tahoma;
+}
+
+form
+{
+
+   display: block;
+   margin-top: 10%;
+}
+
+input
+{
+    border-radius: 5px;
+    height: 30px;
+}
+
+input:focus
+{
+    background-color: rgb(196, 245, 215);
+}
+
+.Expansion
+{
+
+    height: 100px;
+    width: 100px;
+    border:solid medium;
+    border-radius: 10px;
+    float: left;
+    margin:30px 10px 10px 10px;
+    padding: 5px;
+    transition-duration: 1s;
+
+    
+
+}
+
+
+.Expansion:active
+{
+    height: 50%;
+    width: 50%;
+    border:none;
+   
+}
+img
+{
+   max-height: 100%;
+   max-width: 100%;
+   border-radius: 10px;
+   box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
+   margin-top: 10%;
+
+  
+}
+
+a
+{
+
+   text-decoration: none;
+   color:black;
+
+}

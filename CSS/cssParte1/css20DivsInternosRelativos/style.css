@@ -1,0 +1,145 @@
+*{
+
+box-sizing: border-box;
+margin:0%;
+padding:0;
+
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    background-color:#aaa;
+    
+}
+
+#Principal-div
+{
+
+    height:100%;
+    width: 100%;
+    background-color: rgb(31, 88, 88);
+    margin: 0% 0% 0% 5%;
+    padding: 0% 0% 5% 0%;
+}
+
+#titulo-principal
+{
+
+    font-size:30px;
+    font-family: cursive;
+    color:#aaa;
+    padding: 2%;
+    -webkit-text-stroke: 1px rgb(179, 206, 229);
+
+}
+
+.Box1
+{
+    margin:2% 0% 0% 0%;
+    height: 10%;
+    padding: 25px;
+    width: 60%;
+    border:solid thin;
+    background-color: rgb(179, 206, 229);
+}
+
+h2
+{
+   
+   text-align: center;
+   text-transform: uppercase;
+   font-family: cursive;
+   font-weight:bold;
+   -webkit-text-stroke: 1px rgb(211, 200, 245);
+}
+
+.Box2
+{
+    margin: 5%  0%  0% 25%;
+    height: 15%;
+    width:50%;
+    background-color: rgb(211, 200, 245);
+    box-shadow: 0 0 15px 0 rgb(180, 160, 199);
+    border-radius: 15px;
+}
+
+.Box3
+{
+    margin: 3%  0%  0% 25%;
+    height: 25%;
+    width:50%;
+    background-color: rgb(211, 200, 245);
+    box-shadow: 0 0 15px 0 rgb(180, 160, 199);
+    border-radius: 15px;
+}
+
+.Box4
+{
+    margin: 3%  0%  0% 30%;
+    height: 25%;
+    width:50%;
+    padding: 20px;
+    background-color: rgb(179, 206, 229); 
+    box-shadow: 0 0 15px 0 rgb(180, 160, 199);
+    border-radius: 15px;
+}
+
+.box5-imagenes
+{
+    margin:3% 0% 0% 25%;
+    height: 500px;
+    width: 50%;
+    background-color: rgb(179, 206, 229); 
+    box-shadow: 0 0 15px 0 rgb(180, 160, 199);
+    border-radius: 15px;
+    padding: 15px 15px 15px 15px;
+}
+
+.box-flex
+{
+    position: fixed;
+    height: 50%;
+    width: 40%;
+    top: 25%;
+    left: 32%;
+    padding: 2%;
+    opacity:0.5 ;
+    border: solid;
+    background-color: black;
+    box-shadow: 0 0 15px 0 rgb(180, 160, 199);
+    border-radius: 15px;
+
+    
+    
+}
+
+#text-box
+{
+
+    color: white;
+}
+
+p
+{
+    font-family: cursive;
+    font-weight: bold;
+    color:#333;
+    font-size: 15px;
+    padding: 2% 1% 1% 1%;
+    text-align: center;
+    
+}
+
+img
+{
+
+    height:100% ;
+    width: 100%;
+
+
+}
+
+
+

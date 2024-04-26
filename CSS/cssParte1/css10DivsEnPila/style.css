@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+    
+
+}
+
+
+body
+{
+    height: 100%;
+    width:100%;
+    border:solid thin;
+    margin:auto;
+}
+
+h1
+{
+    margin-left: 40px;
+    border-bottom-style: #ee0000;
+    font-style: italic;
+    font-family: "Gill Sans MT";
+    text-decoration:double underline;
+}
+
+
+.principal
+{
+    height: 100%px;
+    width: 80%;
+    margin:auto;
+    border:double thick;
+    background-color: #d7dbdb;
+    
+}
+
+.box1
+{
+    width: 50%;
+    border-radius: 25px;
+    height: 200px;
+    box-shadow: 0px 0px 20px 0px #7d7d7d;
+    margin:auto;
+    margin-top: 100px;
+    border: solid thin;
+    background-color: #c5dceb;
+}
+
+@media (min-width:1080px )
+{ .box1
+     {
+         background-color: #c5dceb;      
+     }
+}
+
+@media (min-width:600px) and (max-width:1080px)
+{ .box1
+    {
+        background-color: #8fbddd;
+    }
+}
+
+@media (max-width:600px)
+{ .box1
+    {
+        background-color: #768ee7;
+    }
+}
+
+
+.box2, .box3
+{
+    background:radial-gradient(circle, rgba(218,180,222,1) 0%,
+     rgba(192,183,235,1) 70%, rgba(166,193,252,1) 100%);
+    width:50%;
+    border-radius: 25px;
+    height: 200px;
+    box-shadow: 0px 0px 20px 0px #7d7d7d;
+    margin:auto;
+    margin-top: 30px;
+    border: solid thin;
+  
+}
+
+.box3
+{
+ 
+    padding:6px;
+    
+}
+
+img
+{
+    display: flex;
+    margin: auto;
+    height: 100%;
+    width:50%;
+    border-radius: 15px;
+}
+
+.box4, .box5
+{
+   background:linear-gradient(45deg, rgba(218,180,222,1) 0%,
+    rgba(192,183,235,1) 70%, rgba(166,193,252,1) 100%);
+   width:50%;
+   border-radius: 25px;
+   height: 200px;
+   box-shadow: 0px 0px 20px 0px #7d7d7d;
+   margin:auto;
+   margin-bottom: 50px;
+   margin-top: 30px;
+   border: solid thin;
+   padding:25px;
+   display: block;
+}
+
+p
+{
+    text-align: left;
+    font-size:21px;
+    margin:auto;
+    text-overflow: ellipsis;
+    font-family: georgia;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical; 
+}
+
+
+.box5
+{
+   background:linear-gradient(-45deg, rgba(218,180,222,1) 0%,
+    rgba(192,183,235,1) 70%, rgba(166,193,252,1) 100%);
+    padding: 0;
+   
+}
+
+
