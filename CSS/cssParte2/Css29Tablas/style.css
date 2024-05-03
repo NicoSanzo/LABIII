@@ -1,0 +1,304 @@
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding:0;
+
+}
+
+body
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*border:solid thin red;*/
+}
+
+#principal
+{
+    height: 100%;
+    width: 100%;
+    /*border:solid thin black;*/
+    position: relative;
+    display: block;
+    background-color: white;
+    font-family: cursive;
+}
+
+#encabezado
+{
+    width:100%;
+    height: 10%;
+    position:fixed;
+    display:flex;
+    background: radial-gradient(circle, rgba(12,2,156,1) 0%, rgba(67,67,205,1) 0%, rgba(0,212,255,1) 100%);;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    
+}
+
+#general
+{
+    overflow: auto;
+    position: absolute;
+    display: flex;
+    top:10%;
+    height: 80%;
+    width: 100%;
+    
+    
+}
+
+#principal-row
+{
+    position: fixed;
+    width: 99.1%;
+    height: 9%;
+    float:left;
+    background-color: rgb(147, 195, 210);
+    z-index: 10 ;
+    font-size: x-large;
+
+   
+    
+}
+
+
+.cod-Product
+{
+    
+    box-shadow: 0 0 3px 0 black;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5%;
+    border-radius: 10px;
+   
+
+}
+
+.des-Product
+{
+    
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    float: left;
+    border-radius: 10px;
+}
+
+.stock
+{
+    
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 10%;
+    float: left;
+    border-radius: 10px;
+}
+
+.price-Product
+{
+    
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 15%;
+    float: left;
+    border-radius: 10px;
+}
+
+.link-Product
+{
+    box-shadow: 0 0 3px 0 black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+}
+
+#tbody
+
+{
+top:11%;
+position: relative;
+width: 100%;
+height: 100%;
+}
+
+.secondary-row
+{
+display:block;
+position: relative;
+height: 50px;
+width: 100%;
+border:none;
+margin-top:2px;
+font-family: cursive;
+font-style: oblique;
+}
+
+#tbody tr th
+{
+    border: none;
+}
+
+footer
+{
+    width:100%;
+    height: 10%;
+    position:fixed;
+    display:flex;
+    background: radial-gradient(circle, rgba(12,2,156,1) 0%, rgba(67,67,205,1) 0%, rgba(0,212,255,1) 100%);;
+    align-items: center;
+    justify-content: center;
+    top: 90%;
+    z-index: 10;
+
+}
+
+a
+{
+ text-decoration: none;
+ color: rgb(77, 115, 243);
+}
+a:hover
+{
+ color: red;
+
+}
+
+@media (max-width:1500px)
+{
+    .link-Product 
+    {
+    display: none;
+    }
+    .des-Product 
+    {
+        width: 50%;
+    }
+    .cod-Product
+    {
+      width: 10%; 
+    }
+    .stock
+    {
+      width: 15%; 
+    }
+    .price-Product
+    {
+        width: 25%;
+    }
+
+    #principal-row
+    {
+        width: 98.6%;
+    }
+
+
+ }
+
+ @media (max-width:1200px)
+{
+
+    .link-Product 
+    {
+        display: none;
+    }
+    .price-Product
+    {
+        display: none;
+    }
+    .des-Product 
+    {
+        width: 65%;
+    }
+    .cod-Product
+    {
+        width: 15%; 
+    }
+    .stock
+    {
+        width: 20%; 
+    }  
+  
+    #principal-row
+    {
+        width: 98.3%;
+    }
+
+}
+
+@media (max-width:900px)
+{
+
+    .link-Product 
+    {
+        display: none;
+    }
+    .price-Product
+    {
+        display: none;
+    }
+    .stock
+    {
+        display: none;
+    }  
+    .des-Product 
+    {
+        width: 85%;
+    }
+    .cod-Product
+    {
+        width: 15%; 
+    }
+
+    #principal-row
+    {
+        width: 97.9%;
+        
+    }
+   
+}
+
+@media (max-width:700px)
+{
+    .des-Product 
+    {
+        width: 85%;
+    }
+    .cod-Product
+    {
+        width: 15%; 
+    }
+    #principal-row
+    {
+        width: 96.7%;
+        
+    }
+
+
+
+}
+
+
+tbody tr:nth-child(odd)
+{
+    background-color: #ddd
+}
+

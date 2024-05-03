@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Css27FormsWD</title>
+         <link rel="stylesheet" href="./style.css">
+
+    </head>
+
+  
+
+    <body>
+        <header id="cabecera">
+            <h1>FORMULARIO</h1>
+        </header>
+
+        <div class="Formulario">
+            <form action="../../../HTML/ejer03Formularios/RESPUESTA A FORMULARIO/index.html" target="_blank" method="get">
+                <div class="entrada">
+                    <label for="Ape">  1- APELLIDO:</label>
+                    <input type="text" name="Apellido" id="Ape" required="required">
+                </div>
+
+                <div class="entrada">
+                    <label for="Nombre">  2- NOMBRE:</label>
+                    <input type="text" name="Nom" id="Nombre" required="required">
+                </div>
+
+                <div class="entrada">
+                    <label for="Contra"> 3-CONTRASEÑA:</label>
+                    <input type="password" name="3-CONTRASEÑA" id="Contra" required="required" >
+                </div>
+
+                <div class="entrada">
+                    <label for="DIRECCION"> 4- DIRECCION:</label>
+                    <input type="text" name="DIR" id="DIRECCION" >
+                </div>
+
+                <div class="entrada">
+                    <label for="FYH"> 5- FECHA Y HORA</label>
+                    <input type="datetime-local" name="fecha" id="FYH">
+                </div>
+
+                <div class="entrada">
+                    <label for="Pais"> 6- PAIS</label>
+                    <input type="text" name="PAIS" id="Pais" value="ARGENTINA" disabled >
+                </div>
+
+                <div class="entrada">
+                    <label for="Localidad">7-LOCALIDAD</label>
+                    <input type="text" name="LOC" id="Localidad" >
+                </div>
+
+                <div class="entrada">
+                    <label for="PROVINCIAS">8-PROVINCIA:</label>
+                        <select name="PROVINCIAS" id="PROVINCIAS" >
+                            <option value="BUENOS AIRES">BUENOS AIRES</option>
+                            <option value="CAPITAL FEDERAL">CAPITAL FEDERAL</option>
+                            <option value="CORDOBA">CORDOBA</option>
+                            <option value="MENDOZA">MENDOZA</option>
+                            <option value="CATAMARCA">CATAMARCA</option>
+                            <option value="LA RIOJA">LA RIOJA</option>
+                            <option value="JUJUY">JUJUY</option>
+                            <option value="SALTA">SALTA</option>
+                            <option value="CHACO">CHACO</option>
+                            <option value="MISIONES">MISIONES</option>
+                            <option value="SANTA FE">SANTA FE</option>
+                            <option value="SANTA CRUZ">SANTA CRUZ</option>
+                            <option value="CHUBUT">CHUBUT</option>
+                            <option value="TIERRA DEL FUEGO">TIERRA DEL FUEGO</option>
+                            <option value="TUCUMAN">TUCUMAN</option>
+                            <option value="LA PAMPA">LA PAMPA</option>
+                            <option value="CORRIENTES">CORRIENTES</option>
+                            <option value="ENTRE RIOS">ENTRE RIOS</option>
+                            <option value="NEUQUEN">NEUQUEN</option>
+                            <option value="SANTIAGO DEL ESTERO">SANTIAGO DEL ESTERO</option>
+                            <option value="FORMOSA">FORMOSA</option>
+                            <option value="SAN LUIS">SAN LUIS</option>
+                            <option value="SAN JUAN">SAN JUAN</option>
+                        </select>
+                </div>
+
+                <div class="entrada">
+                    <h2 id="TIPODEPAQUETE">9-TIPO DE PAQUETE:</h2>
+                    <div class="Eleccion">
+                        <input type="radio" name="Paquetes" id="Paquete" >
+                        <label  for="Paquete">Carta</label>
+                    </div>
+                    <div class="Eleccion">
+                        <input type="radio" name="Paquetes" id="Paquete" >
+                        <label  for="Paquete">Documento</label>
+                    </div>
+                    <div class="Eleccion">
+                        <input type="radio" name="Paquetes" id="Paquete" >
+                        <label for="Paquete">Paquete</label>
+                    </div>
+                </div>
+
+                <div class="entrada">
+                    <h2 id="TIPODEPAQUETE">10-OPCIONES:</h2>
+                    <div class="checkbox">
+                        <input type="checkbox" name="SEGURO" id="checkboxes" >
+                        <label for="Localidad"> ¿Quiere Colocarle Seguro? </label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="FRAGIL" id="checkboxes" >
+                        <label for="FRAGIL"> ¿Es un Producto Fragil? </label>
+                    </div>
+                </div>
+
+                <div class="entrada">
+                    <label for="seguro">11-SEGURO:</label>
+                    <input type="number" name="seguro" id="seguro" min="1000" max="50000" placeholder="$1000-$50000" >
+                </div>
+
+                <div class="entrada">
+                    <label for="telefono"> 12- TELEFONO</label>
+                    <input type="text" pattern=".[+][1-5]{2}. [1-9]{2,4}-[1-9]{7,8}" name="telefono" id="telefono" required placeholder="ej: (+54) 11-1234568" title="(CODIGO INTERNACIONAL)  CODIGO DE AREA-NUMERO DE TELEFONO ">
+                </div>
+
+                <div class="entrada">
+                    <label for="MAIL">12-MAIL</label>
+                    <input type="email" name="MAIL" id="MAIL" placeholder="abc@abc.com" required>
+                </div>
+               
+                
+               
+              <div class="barra-control">
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="RESET">
+              </div>
+
+
+            </form>
+        
+        
+
+        </div>
+
+        <footer>
+
+            <h1>PIE DE FORMULARIO</h1>
+    
+        </footer>
+
+
+    </body>
+
+    
+
+    
+
+
+
+</html>

@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#principal
+ {
+    height: 100%;
+    width: 80%;
+    position: relative;
+ }
+
+#cabecera
+{
+
+    display: flex;
+    position: fixed;
+    height:15%;
+    width: 79.9%;
+    background-color: rgb(45, 45, 45);
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+#contenedor-central
+{
+
+    
+    position: relative;
+    display: flex;
+    float: left;
+    height: 70%;
+    width: 100%;
+    top:15%;
+    
+    
+}
+
+#Navegacion
+{
+    position: relative;    
+    height: 100%;
+    width: 20%;
+    background-image: url(https://c02.purpledshub.com/uploads/sites/48/2020/08/GettyImages-500184907-0439932.jpg);
+    display:flex;
+    justify-content: center;
+    box-shadow: 0 0 7px 0 rgb(220, 216, 216);
+    float: left;
+    
+}
+
+
+#main
+{
+    background-image: url(./IMAGENES/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100% ;
+    width: 85%;
+    float:left;
+    overflow: auto;
+    text-align: left;
+    padding: 2%;
+    text-align: justify;
+    font-family: cursive;
+    color:#bbb;
+    box-shadow: 0 0 7px 0 rgb(198, 198, 198);
+    
+}
+
+.Menu
+  {
+
+    top:20%;
+    display: flex;
+    float: left;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 70%;
+    
+  }
+
+.items
+{
+    
+    background: radial-gradient(circle, rgba(68,68,68,1) 0%, rgba(50,50,51,1) 48%, rgba(31,31,31,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 15%;
+    box-shadow: 0 0 15px 0 rgb(198, 198, 198);
+    border-radius: 15px;
+    font-family: cursive;
+    font-weight:lighter;
+    font-size: large;
+    margin:1%;
+    overflow: hidden;
+    
+}
+
+
+.items:hover
+{
+    background: radial-gradient(circle, rgba(12,2,156,1) 0%, rgba(67,67,205,1) 0%, rgba(0,212,255,1) 100%);
+    color: #aaa;
+
+}
+
+#Navegacion h2
+{
+    
+    top: 15%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 10%;
+    color:white;
+    font-family: cursive;
+    font-weight:lighter;
+}
+
+footer
+{  
+    top:85% ;
+    display: flex;
+    position: fixed;
+    height:15%;
+    width: 79.9%;
+    background-color: rgb(45, 45, 45);
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    z-index: -2;
+    
+}
+
+a
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color:none ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color:#c1c1c1;
+}
+
+
+
+
+@media  (min-width:1300px) 
+{
+    #Navegacion{
+        width: 30%;
+    }
+
+}
+
+@media (min-width:700px) and (max-width:1300px)
+{
+    #Navegacion{
+        width: 35%;
+    }
+
+}
+
+@media (max-width: 700px)
+{
+    #Navegacion{
+        width: 60%;
+    }
+
+}

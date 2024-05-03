@@ -1,0 +1,273 @@
+
+*  {
+
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+
+
+body
+{
+    width:100%;
+    height: 100%;
+    display: block;
+
+}
+#cabecera
+{
+
+    display: flex;
+    position:fixed;
+    z-index: 10;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 121, 184);
+    font-family: cursive;
+
+}
+
+.Formulario
+
+{   
+    position:absolute;
+    top: 10%;
+    height:90% ;
+    width: 100%;
+    border:solid thin #f90000;
+    background-color: rgb(222, 182, 248);
+    overflow: auto;
+}
+
+
+.entrada
+{
+    
+    width: 20%;
+    height: 200px;
+    border:solid thin ;
+    float:left;
+    display: block;
+    padding: 2%;
+    border-radius: 25px;
+    background:linear-gradient(90deg, rgba(210,162,242,1) 7%, rgba(237,115,115,1) 57%, rgba(231,183,110,1) 100%);
+    
+}
+
+.entrada select
+{
+    display: block;
+    height: 35px;
+    width: 250px;
+    margin: 20px 0 0 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+label
+{
+    display: block;
+    font-family: cursive;
+    font-size:x-large;
+}
+
+input
+{
+    display: block;
+    height: 35px;
+    width: 250px;
+    margin: 20px 0 0 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+}
+
+#FYH
+{
+    font-weight: bold;
+}
+
+.Eleccion
+{
+ margin-top: 3px;
+ display: flex;
+ align-items: center;
+ width: 80%;
+ 
+}
+
+.Eleccion label
+{
+    float: left;
+    margin-left:25px;
+
+}
+
+.checkbox
+{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.checkbox label
+{
+    font-size: larger;
+}
+
+.entrada #seguro
+{
+    width: 150px;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.barra-control
+{
+    border:solid thin black;
+    clear: both;
+    display: flex;
+    position: fixed;
+    top: 80%;
+    height: 10%;
+    width: 100%;
+    background-color: #aad;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-control input
+
+{
+    margin: 4%;
+    display: block;
+    height: 55px;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: rgb(135, 169, 248);
+    box-shadow: 0 0 5px 0 black;
+}
+
+.barra-control input:hover
+{
+    background-color: #aaa;
+
+}
+
+
+
+footer
+{
+    background-color: rgb(121, 121, 184);
+    
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 90%;
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: cursive;
+    font-size:small
+    
+
+}
+
+
+#telefono:valid
+{
+    background-color: rgb(167, 200, 116);
+}
+
+
+#MAIL:valid
+{
+    background-color: rgb(167, 200, 116);  
+}
+
+
+#Paquete
+{
+    float: left;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin:0;
+
+}
+
+#TIPODEPAQUETE
+{
+    display: block;
+    font-family: cursive;
+    font-size:x-large;
+    font-weight: lighter;
+}
+
+
+#checkboxes
+{
+    float: left;
+    box-shadow: none;
+    width: 20px;
+    height: 20px;
+    margin:0;
+}
+
+
+
+
+@media (min-width:1500px)  {
+    .entrada {
+        width: 20%;
+        
+    }
+}
+
+@media (min-width:800px) and (max-width:1400px) {
+    .entrada {
+
+        
+        width: 30%;
+        
+    }
+}
+
+ @media (min-width:700px) and (max-width:1000px) {
+        .entrada {
+            width: 45%;
+            
+                
+           
+        }
+}
+
+@media (max-width:700px) {
+    .entrada {
+        width: 100%;
+        input{
+           width: 350px; 
+
+
+        }
+
+      
+
+    }
+}

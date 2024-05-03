@@ -110,6 +110,7 @@ h2
     background-color: black;
     box-shadow: 0 0 15px 0 rgb(180, 160, 199);
     border-radius: 15px;
+    overflow:auto;
 
     
     

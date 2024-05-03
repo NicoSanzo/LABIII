@@ -1,0 +1,223 @@
+*{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding:5px;
+    position: absolute;
+    display:flex;
+
+
+}
+
+#menu ul
+{
+     height: auto ;
+     width: 80%;
+     list-style: none;
+     position:absolute ; /*Mantiene Fijo el Menu en la pagina*/
+     flex-wrap: wrap;
+     display: flex;
+     align-items: center;
+     
+     
+     
+}
+
+#menu .menu-horizontal
+{
+    width: 15%;
+    height: 45px;
+    float: left;
+    position: relative; /* mantiene la posicion original, ademas mantiene la posicion para los contanedores que la contengan// "Reserva el Lugar"*/
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #222;
+    margin: 2px;
+    
+
+}
+
+
+
+#menu .menu-horizontal a
+{   
+        
+        text-decoration: none;
+        text-align: center;
+        
+        width:100%;
+        height: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+}
+
+
+
+ #menu .menu-horizontal h2
+{
+    color: #555;
+    font-weight:600px;
+    
+    
+    
+    
+}
+
+
+
+#menu .desplegable
+{
+
+       
+        width: 100%;
+        position:absolute;
+        top:100%;
+        height: auto;
+        left:0;
+        display:none;
+        z-index: 20;
+        background-color: white;
+        box-shadow: ;
+        padding:1%;
+        
+        
+     
+        
+        
+        
+        
+}
+
+#menu .desplegable li
+{
+        width: 100%;
+        height: 35px;
+        float: left;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        border-radius: 10px;
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 5px 0 #777;
+        
+        
+        
+}
+
+
+
+
+#menu .menu-horizontal .desplegable li h2
+{
+ 
+ font-size: medium;
+ font-weight: lighter;
+ font-family: cursive;
+ 
+}
+
+#menu .menu-horizontal:hover
+{
+    background: linear-gradient(0deg, rgba(154,175,224,1) 0%, rgba(157,153,196,1) 5%, rgba(85,66,212,1) 76%);
+    transition: width 0.5s , height 0.5s;
+    width: 16%;
+    height: 50px;
+    box-shadow: none;
+   
+
+    h2{color:white}
+
+    
+}
+
+
+#menu .menu-horizontal:hover .desplegable
+{
+    display: block;
+    h2{color:black}
+      
+}
+
+#menu .menu-horizontal .desplegable li:hover
+{
+    background: linear-gradient(0deg, rgba(154,175,224,1) 0%, rgba(157,153,196,1) 5%, rgba(85,66,212,1) 76%);
+    transition: width 0.5s , height 0.5s;
+    width: 100%;
+    height: 40px;
+    
+    h2
+    {
+        color:white;
+          
+    }  
+
+}
+
+@media (min-width:1300px) {
+    #menu .menu-horizontal {
+
+        width: 18%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 19%;
+    }
+    
+}
+
+@media (min-width:1000px) and (max-width:1300px) {
+    #menu .menu-horizontal {
+
+        width: 20%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 21%;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+    #menu .menu-horizontal {
+
+        width: 30%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 31%;
+    }
+}
+
+@media (max-width:700px) {
+    #menu .menu-horizontal {
+
+        width: 100%;
+        box-shadow: none;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+

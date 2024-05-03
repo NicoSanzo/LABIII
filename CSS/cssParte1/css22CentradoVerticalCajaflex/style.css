@@ -1,0 +1,57 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding: 0;
+
+}
+
+
+body
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+
+#con-flex
+{
+ height: 100%;
+ display: flex;
+ width: 90%;
+ background-color: antiquewhite;
+ justify-content: center;
+ align-items: center;
+ flex-direction: row;
+ flex-wrap: wrap;
+ 
+
+}
+
+.imagenes1,.imagenes2,.imagenes3
+{
+    height: 300px;
+    width: 300px;
+    border: solid thin;
+    display: flex;
+   
+}
+
+.imagenes1
+{
+    background-image: url(https://cdn.pixabay.com/photo/2024/02/22/05/40/natural-scenery-8589164_640.jpg);
+    border-radius: 15px 15px 15px 15px;
+}
+.imagenes2
+{
+    background-image: url(https://img.freepik.com/foto-gratis/paisaje-forestal_71767-127.jpg);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.imagenes3
+{
+    background-image: url(https://t4.ftcdn.net/jpg/07/06/72/43/360_F_706724318_SilctpdLGPefFMlHGTRwxE8of2AveaIv.jpg);
+    border-radius: 15px 15px 15px 15px;
+}
