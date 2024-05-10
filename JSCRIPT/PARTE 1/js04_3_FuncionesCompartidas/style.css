@@ -1,0 +1,211 @@
+    *{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+    }
+
+
+    html
+    {
+        margin:0; 
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    body
+    {
+        display: block;
+        border:solid black;
+        padding: 1%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #Calculadora
+    {
+        border: solid thin black;
+        height: 82%;
+        width: 30%;
+        display: flex;
+        border-radius: 20px;
+        background:linear-gradient(gray,lightgray);
+        box-shadow: 0 0 5px 0 #777;
+        position: relative;
+        justify-content: center;
+        
+    }
+
+    #display
+    {
+        position: absolute;
+        top:55px;
+        margin:1%;
+        width: 80%;
+        height: 9%;
+        border-radius: 10px;
+        text-align: center;
+        font-size:xx-large ;
+        font-family: cursive;
+        background-color: #333;
+        color:white;
+    }
+
+    #Botones
+    {
+       
+        position: relative;
+        top:19%;
+        width: 90%;
+        height: 55%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    
+    .Boton
+    {
+        height: 25%;
+        width: 20%;
+        margin:2% 6% 2% 6%;
+        border-radius: 50%;
+        font-size: xx-large;
+        font-family: cursive ;
+        font-weight:bolder ;
+        box-shadow: 0 0 5px 0 #777;
+        background-color: #eee;
+    }
+   
+    .Boton:hover
+    {
+        background-color: lightblue;
+    }
+
+
+    #Botones-Resu
+    {
+        position: absolute;
+        top:75%;
+        width: 90%;
+        height: 23%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+
+    .Boton-Resu
+    {
+        height: 43%;
+        width: 43%;
+        border-radius: 10px ;
+        margin:1%;
+        font-size: large;
+        font-family: cursive ;
+        font-weight:bolder ;
+        box-shadow: 0 0 5px 0 #777;
+        background-color: #e39364;
+    }
+
+    .Boton-Resu:hover
+    {
+
+        background-color: lightblue; 
+    }
+
+    .Boton-Resu-mas
+    {
+        display: flex;
+        height: 43%;
+        width: 43%;
+        border-radius: 10px ;
+        margin:1%;
+        font-size: 50px;
+        font-family: cursive ;
+        font-weight:bold ;
+        box-shadow: 0 0 5px 0 #777;
+        background-color: #e39364;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .Boton-Resu-mas:hover
+    {
+
+        background-color: lightblue; 
+    }
+
+    @media (max-width:1500px){
+
+        .Boton{
+
+            height: 25%;
+            width: 20%;
+
+        }
+        #Calculadora
+        {
+            width: 35%;
+        }
+    }
+
+
+    @media (max-width:1200px){
+
+        .Boton{
+
+            height: 25%;
+            width: 20%;
+
+        }
+        #Calculadora
+        {
+            width: 50%;
+        }
+    }
+
+    @media  (max-width:1000px)
+    {
+       
+        #Calculadora
+        {
+            width: 55%;
+        }
+
+    }
+
+    @media (max-width:800px)
+    {
+        
+        #Calculadora
+        {
+            width: 65%;
+        }
+
+    }
+
+
+    @media (max-width:600px)
+    {
+        .Boton{
+
+            width: 80px;
+            height:80px; 
+
+        }
+        #Calculadora
+        {
+            width: 95%;
+        }
+
+    }
