@@ -1,0 +1,157 @@
+*{
+
+    box-sizing: border-box;
+    margin:0;
+    padding: 0%;
+}
+
+html{
+
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding: 0%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+
+   
+    height: 140%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://i.pinimg.com/originals/35/39/20/3539203beae868a13ec84a19b349eafa.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+
+}
+
+
+#div-central
+{
+    display: flex;
+    border: solid;
+    height: fit-content;
+    flex-direction: column;
+    position: fixed;
+    width: fit-content;
+    align-items: center;
+    width: 25%;
+    background-color: #ddd;
+}
+
+#Formulario
+{
+    width:100% ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1%;
+   
+    
+}
+
+#botones
+{
+
+    width: 100%;
+    height:fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+   
+
+}
+
+label{
+    font-family: cursive;
+    
+}
+
+button
+{ 
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 black;
+    height:40px;
+    background-color: rgb(183, 151, 212);
+    margin: 3% 3% 3% 3%;
+}
+
+
+
+input
+{
+    width: 80%;
+    height:40px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 black;
+    margin:3%;
+    text-align: center;
+    font-family: cursive;
+
+}
+
+@media (max-width:600px) {
+
+   
+    #Botones{
+        width: 100%;
+    }
+    #div-central
+    {
+        width: 70%;
+    }
+
+
+}
+
+@media (min-width:600px) and (max-width:900px) {
+
+  
+
+    #div-central
+    {
+        width: 50%;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1200px) {
+
+   
+ 
+    #div-central
+    {
+        width: 40%;
+    }
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+   
+   
+    #div-central
+    {
+        width:20%;
+    }
+
+
+}
