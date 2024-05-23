@@ -1,0 +1,347 @@
+*{
+
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
+    
+ 
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    
+}
+
+#Cabecera
+{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items:flex-end;
+    position: fixed;
+    background-image: url( https://i.pinimg.com/originals/62/02/b9/6202b931f3d654284e53d6a3e8616a4a.jpg) ;
+    background-size: cover;
+    background-position: center;
+    z-index: 10;
+    font-family: cursive;
+    box-shadow: 0 0 10px 0 white;
+    border-radius: 15px;
+    padding: 2%;
+}
+
+
+#menu
+{
+    width: 100%;
+    height: 50% ;
+}
+
+
+#menu ul
+{
+     
+     width: 100%;
+     list-style: none;
+      /*Mantiene Fijo el Menu en la pagina*/
+     flex-wrap: wrap;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+     
+     
+}
+
+#menu .menu-horizontal
+{
+    width: 15%;
+    height: 45px;
+    position: relative; /* mantiene la posicion original, ademas mantiene la posicion para los contanedores que la contengan// "Reserva el Lugar"*/
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 10px;
+    box-shadow: 0 0 50px 0 rgb(136, 136, 136);
+    margin: 2px;
+   
+
+}
+
+
+
+#menu .menu-horizontal a
+{   
+        
+        text-decoration: none;
+        text-align: center; 
+        width:100%;
+        height: 100%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+}
+
+
+
+ #menu .menu-horizontal h2
+{
+    color: #555;
+    font-weight:600px;
+    
+}
+
+
+
+#menu .desplegable
+{
+
+       
+        width: 100%;
+        position:absolute;
+        top:100%;
+        height: auto;
+        left:0;
+        display:none;
+        z-index: 20;
+        background-color: white;
+        padding:1%;
+        background-color: transparent;
+        
+        
+   
+        
+}
+
+#menu .desplegable li
+{
+        width: 100%;
+        height: 40px;
+        float: left;
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        border-radius: 10px;
+        margin: 10px 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 5px 0 #777;
+        border:solid white thin; 
+        
+}
+
+
+
+
+#menu .menu-horizontal .desplegable li h2
+{
+ 
+ font-size: medium;
+ font-weight: lighter;
+ font-family: cursive;
+ 
+}
+
+#menu .menu-horizontal:hover
+{
+    background: linear-gradient(0deg, rgba(154,175,224,1) 0%, rgba(157,153,196,1) 5%, rgba(85,66,212,1) 76%);
+    transition: width 0.5s , height 0.5s;
+    width: 16%;
+    height: 50px;
+    box-shadow: none;
+   
+
+    h2{color:white}
+
+    
+}
+
+
+#menu .menu-horizontal:hover .desplegable
+{
+    display: block;
+    h2{color:black}
+      
+}
+
+#menu .menu-horizontal .desplegable li:hover
+{
+    background: linear-gradient(0deg, rgba(154,175,224,1) 0%, rgba(157,153,196,1) 5%, rgba(85,66,212,1) 76%);
+    transition: width 0.5s , height 0.5s;
+    width: 100%;
+    height: 50px;
+    
+    h2
+    {
+        color:white;
+          
+    }  
+
+}
+
+
+
+#Centro
+{
+
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute ;
+    font-family:cursive;
+    background-image: url(https://i.pinimg.com/originals/f6/06/8c/f6068ccdfbac90c1e87a291c47d5049b.jpg);
+    background-position: center;
+    font-size:25px ;
+    box-shadow: 0 0 50px 0 white;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 3px;
+    
+}
+
+
+
+#Pie
+{
+    height: 10%;
+    width: 100%;
+    align-self: flex-end;
+    z-index: 10;
+    position: fixed;
+    background-image: url( https://i.pinimg.com/originals/62/02/b9/6202b931f3d654284e53d6a3e8616a4a.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+
+}
+
+#Pie h2
+{
+   
+
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+    color: white;
+    font-size: x-large ;
+    font-family: cursive;
+    height: fit-content;
+    opacity: 1;
+    z-index: 12;
+    text-shadow: white 0 0 2px;
+    
+    
+    
+    
+    
+}
+
+#Opacity
+{
+    
+    height: 10%;
+    width: 100%;
+    align-self: flex-end;
+    z-index: 11;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    background-position: center;
+    opacity: 0.6;
+    
+
+}
+
+
+
+@media (min-width:1300px) {
+    #menu .menu-horizontal {
+
+        width: 18%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 19%;
+    }
+    
+}
+
+@media (min-width:1000px) and (max-width:1300px) {
+
+    #Cabecera
+    {
+        height: 25%;
+    }
+    #menu .menu-horizontal {
+
+        width: 20%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 21%;
+    }
+    
+}
+
+@media (min-width:700px) and (max-width:1000px) {
+    #Cabecera
+    {
+        height: 25%;
+    }
+   
+    #menu .menu-horizontal {
+
+        width: 30%;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 31%;
+    }
+}
+
+@media (max-width:700px) {
+    #Cabecera
+    {
+        height:max-content;
+       
+    }
+    #menu .menu-horizontal {
+
+        width: 100%;
+        box-shadow: none;
+    }
+    #menu .menu-horizontal:hover
+    
+    {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
