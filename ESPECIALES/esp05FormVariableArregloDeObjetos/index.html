@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VariablearregloDeOjetos</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+
+    
+    <header id="cabecera">
+         <h1>FORMULARIO</h1>
+    </header>
+    
+    <form id="Formulario" method="get" action="./RESPUESTA A FORMULARIO/index.html">
+        <div class="entrada">
+                <label for="Id">ID:</label>
+                <input type="text" id="Id" required>
+        </div>
+
+        <div class="entrada">
+            <label for="Descripcion">DESCRPICION:</label>
+            <input type="text" id="Descripcion" required >
+        </div>
+
+        <div class="entrada">
+            <label for="Stock">STOCK:</label>
+            <input type="number" required name="Stock" id="Stock" min="1" max="100" placeholder="1u-100u " >
+        </div>
+
+        <div class="entrada">
+            <label for="PRECIO">PRECIO:</label>
+            <input type="number" required name="Precio" id="PRECIO" min="1000" max="50000" placeholder="$1000-$10000000" >
+        </div>
+
+        <div class="entradaC">
+            <label for="CATEGORIA">CATEGORIA</label>
+            <select name="CATEGORIA" id="CATEGORIA" required >  
+            </select>
+        </div>
+
+        <div id="barra-control" >
+            <button id="Enviar"> ENVIAR</button>  
+        </div>
+
+    </form>
+
+    
+
+    <footer>
+
+        <h1>PIE DE FORMULARIO</h1>
+
+    </footer>
+
+<script src="../CATEGORIAS.js"></script>
+<script src="../Jquery/jquery-3.7.1.min.js"></script>
+<script src="./Cod.js"></script>
+</body>
+
+</html>

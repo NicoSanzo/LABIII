@@ -1,0 +1,295 @@
+
+*  {
+
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+html
+{
+    width:100%;
+    height: 100%;
+
+}
+
+
+body
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+#cabecera
+{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(121, 121, 184);
+    font-family: cursive;  
+}
+
+h1
+{
+    font-size: medium;
+    text-shadow: 0 0 2px white;
+}
+
+#Cerrar
+{
+    height: 100%;
+    width: 50px;
+    align-self: stretch;
+    position: absolute;
+    right: 0%;
+    color: Red;
+    background-color: rgb(243, 154, 154);
+    border: none;
+    cursor: pointer;
+    border: solid thin red;
+    border-radius: 5px 0 0 5px;
+    font-size: x-large;
+    font-family: cursive;  
+
+}
+#Cerrar:hover
+{
+    background-color: #ddd;
+    border: solid thin red;
+}
+
+
+
+#Formulario
+{   
+    display: grid;
+    grid-template-columns:25% 25% 25%;
+    grid-template-rows: auto auto ;
+    padding:3px;
+    top: 10%;
+    height:70% ;
+    width: 100%;
+    background-color: rgb(222, 182, 248);
+    overflow: auto;
+    justify-content: center;
+    
+}
+
+
+.entrada
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid thin ;
+    padding: 2%;
+    border-radius: 25px;
+    background:radial-gradient(circle, rgba(80,120,228,1) 0%, rgba(212,169,242,1) 77%, rgba(148,171,233,1) 100%); 
+    
+}
+
+.entradaC
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid thin ;
+    padding: 2%;
+    border-radius: 25px;
+    background:radial-gradient(circle, rgba(80,120,228,1) 0%, rgba(212,169,242,1) 77%, rgba(148,171,233,1) 100%);
+    grid-column: 1/4;
+    
+}
+
+.entradaD
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:solid thin ;
+    padding: 2%;
+    border-radius: 25px;
+    background:radial-gradient(circle, rgba(80,120,228,1) 0%, rgba(212,169,242,1) 77%, rgba(148,171,233,1) 100%);
+    grid-column: 1/4;
+    
+}
+
+
+.entradaC select
+{
+    height: 35px;
+    width: 80%;
+    margin: 20px 0 0 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+label
+{
+    display: block;
+    font-family: cursive;
+    font-size:large;
+}
+
+input
+{
+    height: 35px;
+    width: 80%;
+    margin: 20px 0 0 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+}
+
+
+.Eleccion
+{
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+    width: 80%;
+ 
+}
+
+
+
+#barra-control
+{
+    
+    display: flex;
+    top: 80%;
+    height: 10%;
+    width: 100%;
+    background-color: #aad;
+    justify-content: center;
+    align-items: center;
+}
+
+#barra-control button
+
+{
+    margin: 4%;
+    display: block;
+    height: 80%;
+    width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 0 white;
+    text-align: center;
+    font-family: cursive;
+    font-size: x-large;
+    cursor: pointer;
+    background-color: rgb(135, 169, 248);
+    box-shadow: 0 0 5px 0 black;
+    
+}
+
+#barra-control input:hover
+{
+    background-color: #aaa;
+
+}
+
+.Moda
+{
+    width: 40% ;
+    height: 60%;
+    
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.ModalPrendido
+{
+    width: 40% ;
+    height: 60%;
+    border: solid;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    opacity: 1 ;
+    pointer-events: all;   
+    z-index: 50; 
+    transition: opacity .6s ;
+    border: solid thin black;
+    box-shadow: 0 0 5px 0 black;
+}
+
+
+
+footer
+{
+    background-color: rgb(121, 121, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 90%;
+    height: 10%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-family: cursive;
+    font-size:small ;
+}
+
+
+
+
+@media (min-width:800px) and (max-width:1400px) {
+    #Modal {
+        width: 50%;
+    }
+   
+    
+}
+
+ @media (min-width:700px) and (max-width:1000px) {
+    #Modal {
+        width: 60%;
+    }
+  
+    label {
+        font-size: medium;
+     }
+}
+
+@media (max-width:700px) {
+    #Modal {
+        width: 90%;
+    }
+    
+    label {
+        font-size: medium;
+     }
+
+
+} 
+
+
+ 

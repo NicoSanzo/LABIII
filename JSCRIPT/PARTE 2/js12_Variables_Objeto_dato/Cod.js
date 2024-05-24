@@ -37,10 +37,11 @@ function create()
     
     arrayPersonas.forEach(function(item)
     {
-    var ObjtrName=document.createElement("tr");
-    var ObjtrApe=document.createElement("tr");
-    var Objtrfecha=document.createElement("tr");
-    var objth=document.createElement("th");
+    var ObjtrName=document.createElement("th");
+    var ObjtrApe=document.createElement("th");
+    var Objtrfecha=document.createElement("th");
+    var objth=document.createElement("tr");
+
     objth.className="th";
     objtable.appendChild(objth);
     

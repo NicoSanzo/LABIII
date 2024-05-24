@@ -141,9 +141,9 @@ background-color: white;
 }
 
 
-th:nth-child(odd)
+tr:nth-child(odd)
 {
-    tr{
+    th{
     background-color: #666;
     }
 }

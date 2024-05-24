@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styleFormModal.css">
+    <title>Tabla Variable Arreglo Obj</title>
+</head>
+    
+<body>
+    <div id="prince" class="principal">
+        <header id="encabezado">
+            <h2>PRODUCTOS</h2>
+            <div class="Botones">
+                <button id="Cargar" class="but">CARGAR</button>
+                <button id="Vaciar" class="but">VACIAR</button>
+                <button id="Ingreso" class="but">INGRESO</button>
+            </div>
+        </header>
+        
+        <table id="general" >
+            <thead>
+                <tr id="principal-row">
+                    <th class="cod-Product">ID</th>
+                    <th class="des-Product">DESCRIPCION</th>
+                    <th class="stock">STOCK</th>
+                    <th class="price-Product">PRECIO</th>
+                    <th class="Cat-Product"> CATEGORIA </th>
+                </tr>
+            </thead>
+            <tbody id="tbody"> </tbody>
+        </table>
+
+        <footer>
+            <h2>Pie</h2>
+        </footer> 
+    </div>
+<!--------------------------------------------------------------------------------------------->
+    <div class="Moda" id="Modal">
+        <header id="cabecera">
+            <h1>PRODUCTOS</h1>
+            <button id="Cerrar"> X</button>
+        </header>
+       
+        <form id="Formulario" method="get" action="./RESPUESTA A FORMULARIO/index.html">
+           <div class="entrada">
+                   <label for="Id">ID:</label>
+                   <input type="text" id="Id" required>
+           </div>
+           <div class="entrada">
+               <label for="Stock">STOCK:</label>
+               <input type="number" required name="Stock" id="Stock" min="1" max="100" placeholder="1u-100u " >
+           </div>
+           <div class="entrada">
+               <label for="PRECIO">PRECIO:</label>
+               <input type="number" required name="Precio" id="PRECIO" min="1000" max="50000" placeholder="$1000-$10000000" >
+           </div>
+           <div class="entradaC">
+               <label for="CATEGORIA">CATEGORIA</label>
+               <select name="CATEGORIA" id="CATEGORIA" required ></select>
+           </div>
+           <div class="entradaD">
+                <label for="Descripcion">DESCRIPCION:</label>
+                <input type="text" id="Descripcion" required >
+          </div>
+        </form>
+
+        <div id="barra-control" >
+                <button id="Enviar"> ENVIAR</button>  
+        </div>
+        <footer>
+            <h1>PIE DE FORMULARIO</h1>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+<script src="../PRODUCTOS.js"></script>
+<script src="../CATEGORIAS.js"></script>
+<script src="../Jquery/jquery-3.7.1.min.js"></script>
+<script src="./Cod.js"></script>
+
+</body>
+
+
+</html>
