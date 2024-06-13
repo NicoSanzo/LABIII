@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleGeneral.css">
+    <link rel="stylesheet" href="./styleModal.css">
+    <title>esp18FormToJson</title>
+
+</head>
+<body>
+
+        <header id="GeneralHeader"></header>
+
+
+        <div id="prince" class="principal">
+            <button id="Ingreso"> INGRESAR DATOS</button>
+        </div>
+
+
+        <div class="Moda" id="Modal">
+            <header id="cabecera">
+                <h1>DATOS</h1>
+                <button id="Cerrar"> X</button>
+            </header>
+           
+            <form id="Formulario" method="get" action="./RESPUESTA A FORMULARIO/index.html">
+
+                
+            <div class="entrada">
+                <label for="USUARIO">USUARIO</label>
+                <input type="text" id="User" required>
+            </div>
+
+            <div class="entrada">
+                <label for="MAIL">MAIL:</label>
+                <input type="email" id="Mail" >
+            </div>
+
+               <div class="entrada">
+                       <label for="Nombre">NOMBRES</label>
+                       <input type="text" id="Nombre" required>
+               </div>
+
+            
+       
+               <div class="entrada">
+                   <label for="Apellido">APELLIDO</label>
+                   <input type="text" id="Apellido" required >
+               </div>
+       
+              
+               <div class="entradaD">
+                <label for="Naciemiento">NACIMIENTO:</label>
+                <input type="date" id="NACIMIENTO" required >
+              </div>
+
+
+              
+              <div id="Resultado" class="EstadoReq">
+       
+              </div>
+        
+             
+       
+           </form>
+       
+           <div id="barra-control" >
+                <button id="Enviar"> ENVIAR</button>  
+           </div>
+       
+           <footer>
+       
+               <h1></h1>
+
+           </footer>
+
+
+
+          
+
+        </div>
+
+        <footer id="footerGeneral"></footer>
+
+       
+       
+      
+<script src="../../../ESPECIALES/Jquery/jquery-3.7.1.min.js"> </script>
+<script src="./COD.js"></script>
+</body>
+</html>

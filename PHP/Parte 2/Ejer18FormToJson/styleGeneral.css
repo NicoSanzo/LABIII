@@ -1,0 +1,225 @@
+*  {
+
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+
+}
+
+html
+{
+    width:100%;
+    height: 100%;
+
+}
+
+
+body
+{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+#GeneralHeader
+{
+
+    width: 100%;
+    position: fixed;
+    background-color: #aaa;
+    height: 10%;
+    z-index: 55;
+    align-self: start;
+    border: solid thin;
+    box-shadow: 0 0 5px 0 black;
+
+}
+
+
+
+.principal
+{
+    
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position:absolute;
+    background:linear-gradient(159deg, rgba(212,169,242,1) 0%, rgba(148,171,233,1) 47%, rgba(212,169,242,1) 100%);
+    opacity: 1 ;
+    pointer-events: all;
+  
+
+}
+#Ingreso
+{
+    height: 10%;
+    display: block;
+    position: absolute;
+    border: solid 2px;
+    left:5%;
+    top:5%;
+    border-radius: 12px;
+    width: 20%;
+    background-color: rgb(195, 220, 255);
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    box-shadow: 0 0 5px 0  #ddd;
+    padding: 2px;
+}   
+
+#Ingreso:hover
+{
+    background-color: rgb(239, 180, 248);
+    color: white;
+    border-color: rgb(251, 167, 196);
+    width: 21%;
+    height: 11%;
+    transition-duration: 0.5s;
+
+}
+
+
+
+.principalPasivo
+{
+    
+    width: 100%;
+    height: 80%;
+    display: flex;
+    position:absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.3  ;
+    pointer-events: none;
+    background-color: rgb(190, 138, 231);
+   
+}
+
+
+.Moda
+{
+    width: 40% ;
+    height: 60%;
+    border: solid;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 0;
+    visibility: hidden;
+    
+}
+
+.ModalPrendido
+{
+    width: 40% ;
+    height: 60%;
+    border: solid thin;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    opacity: 1 ;
+    pointer-events: all;   
+    box-shadow: 0 0 5px 0 black;
+    z-index: 50; 
+    transition: opacity .6s ;
+    
+    
+
+}
+
+
+#footerGeneral
+{
+
+    width: 100%;
+    position: fixed;
+    background-color: #aaa;
+    height: 10%;
+    box-shadow: 0 0 5px 0 black;
+
+
+}
+
+
+
+
+ #Cerrar
+{
+    height: 100%;
+    width: 50px;
+    align-self: stretch;
+    position: absolute;
+    right: 0%;
+    color: Red;
+    background-color: rgb(243, 154, 154);
+    border: none;
+    cursor: pointer;
+    border: solid thin red;
+    border-radius: 5px 0 0 5px;
+    font-size: x-large;
+    font-family: cursive;
+   
+
+}
+#Cerrar:hover
+{
+    background-color: #ddd;
+    border: solid thin red;
+
+}
+
+
+@media (min-width:800px) and (max-width:1400px) {
+    #Modal {
+        width: 50%;
+    }
+    #Ingreso
+    {
+        width:25%;
+    }
+    
+}
+
+ @media (min-width:700px) and (max-width:1000px) {
+    #Modal {
+        width: 60%;
+    }
+    #Ingreso
+    {
+        width: 35%;
+    }
+    #Ingreso:hover
+    {
+    width: 37%;
+    }
+}
+
+@media (max-width:700px) {
+    #Modal {
+        width: 90%;
+    }
+    #Ingreso
+    {
+        width: 33%;
+    }
+
+    #Ingreso:hover
+    {
+    width: 34%;
+    }
+
+} 
+
