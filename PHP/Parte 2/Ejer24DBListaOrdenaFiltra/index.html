@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ejer24DbListaOrdenaFiltra</title>
+</head>
+<body>
+        <header> 
+            <h2>INSCRIPTOS</h2>
+            <div id="header-Input"> 
+                <label for="Filtro"> ORDEN: </label> 
+                <input type="text" name="Filtro" id="Filtro"> 
+            </div>
+            
+        </header>
+        
+        <table>
+            <thead>
+                <tr id="Encabezados">
+                    <td class="Columnas" id="COD-CARR">Cod-Carrera</td>
+                    <td class="Columnas" id="LEG">Legajo</td>
+                    <td class="Columnas" id="NOM">Nombre</td>
+                    <td class="Columnas" id="APE">Apellido</td>
+                    <td class="Columnas" id="CUO">Cuota</td>
+                    <td class="Columnas" id="MATAPR">Materias Aprobadas</td>
+                    <td class="Columnas" id="FECH">Fecha de Inscripcion</td>
+                    <td class="Columnas" id="CARR">Carrera</td>
+                </tr> 
+                <tr id="inputs">  
+                    <td id="Entrada1"><input  type="text"  id="CodCarrera"></td>
+                    <td id="Entrada2"><input  type="text"  id="Legajo"></td>
+                    <td id="Entrada3"><input  type="text"  id="Nombre"></td>
+                    <td id="Entrada4"><input  type="text"  id="Apellido"></td>
+                    <td id="Entrada5"><input  type="text"  id="Cuota"></td>
+                    <td id="Entrada6"><input  type="text" id="Materias"></td>
+                    <td id="Entrada7"><input  type="text"  id="Fecha"></td>
+                    <td id="Entrada8"><select   id="Carreras"></select></td> 
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+
+            <tfoot>
+                <tr id="PieTabla" >
+                    <td class="Pies" id="f-cod-carrera">Cod-Carrera</td>
+                    <td class="Pies">Legajo</td>
+                    <td class="Pies">Nombre</td>
+                    <td class="Pies" id="APE">Apellido</td>
+                    <td class="Pies" id="CUO">Cuota</td>
+                    <td class="Pies" id="MATAPR" >Materias Aprobadas</td>
+                    <td class="Pies" id="FECH">Fecha de Inscripcion</td>
+                    <td class="Pies" id="CARR">Carrera</td>
+                </tr>
+                <tr id="Botones"> 
+                    <td><button  class="Boton" id="Cargar"> CARGAR DATOS</button></td>
+                    <td><button class="Boton" id="Vaciar"> VACIAR </button></td>
+                </tr> 
+            </tfoot>
+        </table>
+        <footer id="REGISTROS">
+        </footer>
+
+<script src="./Jquery/jquery-3.7.1.min.js"></script>   
+<script src="./CargaInputOrdenamiento.js"></script>     
+<script src="./Codigo.js"></script>
+</body>
+
+</html>

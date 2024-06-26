@@ -17,8 +17,8 @@ function Crear(){
 
          
          var fila= document.createElement("tr");
-         var CeldaID= document.createElement("td");
 
+         var CeldaID= document.createElement("td");
          var CeldaDESC= document.createElement("td");
          var CeldaSTOCK= document.createElement("td");
          var CeldaPRECIO= document.createElement("td");
