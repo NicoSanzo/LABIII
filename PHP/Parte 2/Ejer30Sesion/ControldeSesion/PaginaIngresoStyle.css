@@ -1,0 +1,236 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+html
+{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+header
+{
+    width: 100%;
+    height: 12%;
+    border: solid thin black;
+    color: white;
+    background: linear-gradient(120deg,#cdffd8,#94b9ff,#cdffd8);
+    position:absolute;
+    bottom: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+   
+    h2{
+
+        -webkit-text-stroke: 1px rgb(92, 208, 92);
+    }
+
+
+}
+
+footer
+{
+    width: 100%;
+    height: 8%;
+    border: solid;
+    position: fixed;
+    top: 92%;
+    border: solid thin black;
+    color: white;
+    background: linear-gradient(240deg,#cdffd8,#94b9ff,#cdffd8);
+}
+
+#LogOut
+{
+
+    width: 8%;
+    position: absolute;
+    left:85%;
+    height:40%;
+    border-radius: 15px;
+    background: radial-gradient(circle, rgba(241,181,181,1) 1%, rgba(246,147,147,1) 100%);
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    box-shadow: 0 0 5px 0 black;
+}
+
+#LogOut:hover
+{
+    Background: linear-gradient(90deg, rgba(251,126,126,1) 0%, rgba(254,231,231,1) 42%, rgba(251,126,126,1) 84%);
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 black;
+
+}
+
+#Data
+{
+    border: solid thin #bbb;
+    height: 55%;
+    width: 40%;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 5px 0 #aaa;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: 100%;
+    grid-template-rows:auto auto auto auto;
+    grid-row-gap:2px;
+    padding: 1%;
+    background-color: #eee;
+
+    label
+    {
+        width: 50%;
+        height: 70%;
+        border: solid thin;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #67d1d9;
+        border-radius: 10px;
+        box-shadow: 0 0 5px 0 black;
+
+    }
+
+    input
+    {
+        position: relative;
+        border: solid thin;
+        box-shadow: 0 0 10px 0 #aaa;
+        border-radius: 10px;
+        width: 80%;
+        height: 40px;
+        padding: 2%;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: x-large;
+        
+       
+        
+    }
+ 
+
+    #IrATabla
+    {
+        width: 30%;
+        height: 80%;
+        border-radius: 50px;
+        background-color: #86b5f3;
+        cursor: pointer;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:white;
+        font-size: large;
+        font-weight: bold;
+        box-shadow: 0 0 5px 0 black;
+        border: solid thin #3f92ff ;
+     }
+
+     #IrATabla:hover
+     {
+        transition-duration: 1s;
+        color:black;
+        background-color: #aee8ed;
+     }
+
+
+
+}
+
+
+
+
+@media (max-width:1500px)
+{
+    #LogOut
+    {width: 10%;
+    left:80%}
+    
+
+}
+
+ @media (max-width:1200px)
+ {   
+    #LogOut
+    {width: 15%;
+    left:80%}
+    #Data
+     {width: 50%;}
+ }
+
+  @media (max-width:900px)
+ {
+    #Data
+     {width: 60%;}
+    
+ }
+
+
+
+ @media (max-width:800px)
+ {
+     
+    header
+    {
+       justify-content:space-between;
+       padding: 20px;
+    }
+
+    #LogOut
+    {width: 15%;
+     left:80%}
+
+     #Data
+     {width: 90%;}
+}
+
+
+
+
+
+@media (max-width:700px)
+{
+        
+    #LogOut
+    {width: 30%;
+     left:68%}
+
+  
+
+}
+
+@media (max-width:500px)
+{
+
+    header
+    {h2{font-size: 35px}}
+   
+  
+}

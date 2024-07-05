@@ -1,0 +1,4 @@
+2024-06-22  19:54:06 ERROR: SQLSTATE[HY000] [1045] Access denied for user 'roo'@'localhost' (using password: NO)
+
+2024-06-22  19:55:49 ERROR: SQLSTATE[HY000] [1045] Access denied for user 'rot'@'localhost' (using password: NO)
+
