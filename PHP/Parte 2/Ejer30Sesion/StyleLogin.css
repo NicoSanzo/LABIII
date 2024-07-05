@@ -1,0 +1,233 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+html
+{
+    margin: 0;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+
+    
+}
+
+
+
+
+
+header
+{
+    width: 100%;
+    height: 12%;
+    border: solid thin black;
+    color: white;
+    background: linear-gradient(180deg,#cdffd8,#94b9ff);
+    position:absolute;
+    bottom: 88%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    -webkit-text-stroke: 1px black;
+}
+
+footer
+{
+    width: 100%;
+    height: 8%;
+    border: solid;
+    position: fixed;
+    top: 92%;
+    border: solid thin black;
+    color: white;
+    background: linear-gradient(180deg,#cdffd8,#94b9ff);
+}
+
+
+
+#Login-Form
+{
+
+    border: solid thin;
+    align-self: center;
+    border-radius: 30px;
+    width: 25%;
+    height: 40%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 7px 0 black;
+    background-color: #ddd;
+    
+}
+
+#Inputs
+{
+    
+    height: 60%;
+    width: 75%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h2
+    {
+        position: absolute;
+        bottom:85%;
+        font-size: 35px;
+        margin-bottom: 5px;
+        
+    }
+
+    label
+    {
+
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-size: larger;
+        margin-bottom: 2%;
+        border: solid thin;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: solid thin black;
+        box-shadow: 0 0 3px 0 black ;
+        display: flex;
+        height: 20%;
+        width: 100%;
+        background-color: #67d1d9;
+        color: white;
+        
+        
+    }
+
+    input{
+        border: solid thin;
+        border-radius:10px;
+        width: 100%;
+        height: 20%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+        font-size:x-large;
+        margin-bottom: 3%;
+  
+    }
+
+   
+}
+
+#Ingreso
+{
+    border-radius: 10px;
+    height: 15%;
+    width: 30%;
+    background: radial-gradient(circle, rgba(148,171,233,1) 0%, rgba(124,155,246,1) 100%);
+    margin: 2%;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 15px;
+}
+
+#Ingreso:hover
+{
+    background: #94b9ff;
+}
+
+.RespuestaDeSesionOculta
+{
+    opacity: 0;
+    visibility: hidden;
+ 
+   
+}
+
+
+
+.RespuestaDeSesionError
+{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 10%;
+   border: solid thin rgb(243, 75, 75);
+   width: 80%;
+   background-color: rgb(234, 145, 145);
+   border-radius: 10px;
+   text-align: center;
+   box-shadow: 0 0 2px 0;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+   opacity: 1;
+   transition: opacity .6s ;
+   visibility: visible;
+   font-size: 15px;
+   color:rgb(140, 8, 8);
+ 
+
+}
+
+
+@media (max-width:1500px)
+{
+  
+    #Login-Form
+    {width: 40%;}
+
+}
+
+
+ @media (max-width:1200px)
+ {
+    #Login-Form
+    {width: 40%;}
+ 
+}
+
+
+
+@media (max-width:900px)
+{    
+    #Login-Form
+    {width: 50%;}
+
+}
+
+@media (max-width:800px)
+{
+    #Login-Form
+    {width: 80%;}
+
+}
+
+@media (max-width:500px)
+{
+
+    #Login-Form
+    {width: 90%;}
+ 
+}

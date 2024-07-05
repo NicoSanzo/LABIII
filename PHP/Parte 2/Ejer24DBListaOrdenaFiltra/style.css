@@ -1,0 +1,599 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    width: 100%;
+    height: 100%;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+header
+{
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(180deg,#cdffd8,#94b9ff);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    h2
+    {
+       
+        margin:10%;
+        font-size: xx-large;
+        color:#004AAD;
+        text-decoration:underline;
+    } 
+    
+    
+
+}
+
+#header-Input
+    {
+     
+     height: 100%;
+     width: 60%;
+     display: flex;
+     justify-content:flex-end;
+     flex-wrap: wrap;
+     align-items: center;
+     
+     
+     
+     label
+     {
+        font-size: xx-large;
+        color:#004AAD;
+        text-shadow: rgb(33, 33, 33) 0 0 2px;
+        margin-right: 2%;
+        align-items: center;
+     }
+
+     input
+     {
+        height: 50%;
+        width: 20%;
+        align-self:right;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 2px 0 black;
+        font-size: large;
+        background-color: #acc7f9;
+
+     }
+
+    }
+
+table
+{
+   
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: flex;
+    top:10%;
+    overflow: hidden;
+    justify-content: center;
+    
+}
+
+thead 
+{
+    
+    display: fixed;
+    width: 100%;
+    height: 13%;
+    position: relative;
+    background: linear-gradient(180deg,#26BEC8 ,#acc7f9);
+    
+    
+}
+
+#Encabezados
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 99.6%;  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+    
+}
+.Columnas
+{
+        border:solid thin;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:#26BEC8;  
+        cursor: pointer;
+
+}
+
+
+
+#inputs
+{
+    width: 99.6%;
+    height: 40%;   
+    top:60%;
+    display: flex;
+   
+
+    input
+    {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      text-align: center;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      background-color: #acc7f9;
+   
+    }
+    select
+    {
+      width: 100%;
+      height: 100%;
+      background-color: #acc7f9;
+      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: large;
+      border-radius: 5px;
+      text-align: center;
+    }
+ 
+}
+
+   
+ 
+
+
+tbody
+{
+    
+    width: 100%;
+    height:72% ;
+    position: absolute;
+    top:13%;
+    overflow:auto; 
+  
+    tr
+    {
+        
+        width: 100%;
+        height: 7%;
+        display: flex;
+        text-align: center;
+        
+    }
+
+
+
+    tr:nth-child(odd)
+    {
+        background-color: #eee;
+    }
+
+    h2
+    {
+       align-content: center;
+       
+    }
+   
+}
+
+.Carrera
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Fecha
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Materias
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Cuota
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Apellido
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Nombre
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Legajo
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Cod
+{
+    border: solid thin;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+tbody::-webkit-scrollbar
+    {
+     width: 7px;
+     position:sticky;
+    
+    }
+
+tbody::-webkit-scrollbar-thumb
+{
+    background-color: #aaa;
+    border-radius: 3px;
+}
+
+
+
+
+tfoot
+{
+
+    height: 15%;
+    width: 100%;
+    align-self: flex-end;
+    position: absolute;
+    
+    
+}
+
+#PieTabla{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 99.6%; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+   
+}
+
+.Pies
+{
+    border:solid thin;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#26BEC8;
+    font-weight: bold;
+}
+
+#Botones
+{
+    width: 100%;
+    height: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    td{
+        width: 10%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+
+    }
+   .Boton
+   {
+        width: 100%;
+        height: 80%;
+        border-radius: 50px;
+        background-color: #86b5f3;
+        cursor: pointer;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: large;
+        font-weight: bold;
+        box-shadow: 0 0 2px 0 black;
+   }
+
+   #Vaciar
+   {
+        background-color: #38B6FF;
+   }
+
+}
+
+
+footer
+{
+    background: linear-gradient(180deg,#cdffd8,#94b9ff);
+    height: 10%;
+    top: 90%;
+    width: 100%;
+    position: absolute;
+    
+    h2
+    {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: large;
+        margin: 1% 0 0 5%;
+    }
+}
+
+
+
+@media (max-width:1500px)
+{
+    
+    .Carrera
+    {
+     display: none;
+    }
+    #CARR
+    {
+        display: none;
+    }
+    #Entrada8
+    {
+        display: none;
+    }
+    
+    #Botones
+    {
+        
+        width: 100%;
+     td
+     {
+        width: 15%;
+     }
+    }
+
+    #header-Input
+    { 
+        input
+        {
+         width: 25%;
+        }
+    }   
+
+
+ }
+
+ @media (max-width:1200px)
+{
+   
+    .Materias
+    {
+        display: none;
+    }
+    #MATAPR
+    {
+        display: none;
+    }
+    #Entrada6
+    {
+        display: none;
+    }
+
+    #Botones
+    {
+        
+        width: 100%;
+
+        td
+        {
+        width: 20%;
+        }
+
+    }
+     #header-Input
+    { 
+        input
+        {
+         width: 30%;
+        }
+    }   
+}
+
+@media (max-width:900px)
+{
+    .Fecha
+    {
+        display: none;
+    }
+    #FECH
+    {
+        display: none;
+    }
+    #Entrada7
+    {
+        display: none;
+    }
+
+    #Botones
+    {       
+        width: 100%;
+     td
+     {
+        width: 30%;
+     }
+    }
+    #header-Input
+    { 
+        justify-content: center;
+        input
+        {
+         width: 40%;
+        }
+    }   
+
+}
+
+
+@media (max-width:800px)
+{
+    .Cuota
+    {
+        display: none;
+    }
+    #CUO
+    {
+        display: none;
+    }
+    #Entrada5
+    {
+        display: none;
+    }
+
+    #Botones
+        {
+            
+            width: 100%;
+         td
+         {
+            width: 30%;
+         }
+        }
+   
+}
+
+
+
+
+
+
+@media (max-width:700px)
+{
+        #Botones
+        {
+            
+            width: 100%;
+         td
+         {
+            width: 40%;
+         }
+        }
+       
+        #header-Input
+        { 
+            justify-content: center;
+            input
+            {
+             width: 50%;
+            }
+        }   
+
+
+
+}
+
+@media (max-width:500px)
+{
+    
+        .Apellido
+        {
+            display: none;
+        }
+        #APE
+        {
+            display: none;
+        }
+        #Entrada4
+        {
+            display: none;
+        }
+        #Botones
+        {
+            
+            width: 100%;
+         td
+         {
+            width: 40%;
+         }
+        }
+       
+        #header-Input
+        { 
+            justify-content: center;
+            input
+            {
+             width: 100%;
+            }
+           label
+           {
+            font-size: x-large;
+           }
+        }   
+
+
+
+}

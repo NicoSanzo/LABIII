@@ -1,0 +1,79 @@
+2024-07-01  13:04:32 ERROR: 
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+2024-07-01  09:37:42 ERROR: BINDING de Variables para MODIFICACIONES realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  09:39:49 ERROR: BINDING de Variables para MODIFICACIONES realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  09:40:49 ERROR: BINDING de Variables para MODIFICACIONES realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  09:41:50 ERROR: BINDING de Variables para MODIFICACIONES realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  09:51:46 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Codigo' in 'field list'
+
+2024-07-01  09:52:31 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  09:53:21 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Codigo' in 'field list'
+
+2024-07-01  09:53:47 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:08:01 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:08:41 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:09:03 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:09:23 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LegajoKey' in 'where clause'
+
+2024-07-01  10:09:34 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:09:47 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'LegajoKey' in 'where clause'
+
+2024-07-01  10:10:12 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  10:11:15 ERROR: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-01  12:08:19 ERROR: 
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+
+2024-07-01  14:17:08 ERROR: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+2024-07-01  14:28:30 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DocumentoPdf' in 'field list'
+
+2024-07-01  14:33:01 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DocumentoPdf' in 'field list'
+
+2024-07-01  14:34:03 ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'DocumentoPdf' in 'field list'
+
+2024-07-02  08:17:22 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+2024-07-02  08:19:49 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+2024-07-02  08:21:09 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens
+
+2024-07-02  11:00:28 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15658' for key 'PRIMARY'
+
+2024-07-02  11:08:41 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15666' for key 'PRIMARY'
+
+2024-07-02  11:15:13 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15655' for key 'PRIMARY'
+
+2024-07-02  11:33:56 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15655' for key 'PRIMARY'
+
+2024-07-02  12:09:08 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '15655' for key 'PRIMARY'
+
+2024-07-02  12:28:27 ERROR: BINDING de Variables para ALTAS realizada con EXITO
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '16582' for key 'PRIMARY'
+
+2024-07-02  12:48:37 ERROR: SQLSTATE[08S01]: Communication link failure: 1153 Got a packet bigger than 'max_allowed_packet' bytes
+
